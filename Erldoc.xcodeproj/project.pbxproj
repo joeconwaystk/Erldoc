@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4752AD16EE72FF00BECF2E /* ERLSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4752AC16EE72FF00BECF2E /* ERLSearchResult.m */; };
+		BE613F4C16E67F3D00288DD2 /* ERLDescriptionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE613F4B16E67F3D00288DD2 /* ERLDescriptionParser.m */; };
+		BE613F5516E6B07D00288DD2 /* ERLTypeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE613F5416E6B07D00288DD2 /* ERLTypeParser.m */; };
+		BE63CB51162EF0AE00A67856 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63CB50162EF0AE00A67856 /* Cocoa.framework */; };
+		BE63CB5B162EF0AE00A67856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE63CB59162EF0AE00A67856 /* InfoPlist.strings */; };
+		BE63CB5D162EF0AE00A67856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CB5C162EF0AE00A67856 /* main.m */; };
+		BE63CB61162EF0AE00A67856 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE63CB5F162EF0AE00A67856 /* Credits.rtf */; };
+		BE63CB64162EF0AE00A67856 /* ERLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CB63162EF0AE00A67856 /* ERLAppDelegate.m */; };
+		BE63CB67162EF0AE00A67856 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE63CB65162EF0AE00A67856 /* MainMenu.xib */; };
+		BE63CB81162F0BAD00A67856 /* ERLModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CB7F162F0BAD00A67856 /* ERLModuleViewController.m */; };
+		BE63CB82162F0BAD00A67856 /* ERLModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE63CB80162F0BAD00A67856 /* ERLModuleViewController.xib */; };
+		BE63CB86162F0E1D00A67856 /* ERLWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CB84162F0E1D00A67856 /* ERLWindowController.m */; };
+		BE63CB87162F0E1D00A67856 /* ERLWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE63CB85162F0E1D00A67856 /* ERLWindowController.xib */; };
+		BE63CB8A162F25E100A67856 /* ERLModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CB89162F25E100A67856 /* ERLModule.m */; };
+		BE6DCCBB163057980084D180 /* ERLDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DCCBA163057980084D180 /* ERLDataType.m */; };
+		BE6DCCBE163066570084D180 /* ERLFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DCCBD163066570084D180 /* ERLFunction.m */; };
+		BE8E15D816EF737900E91B6B /* Type.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8E15D416EF737900E91B6B /* Type.pdf */; };
+		BE8E15D916EF737900E91B6B /* Callback.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8E15D516EF737900E91B6B /* Callback.pdf */; };
+		BE8E15DA16EF737900E91B6B /* Function.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8E15D616EF737900E91B6B /* Function.pdf */; };
+		BE8E15DB16EF737900E91B6B /* Module.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8E15D716EF737900E91B6B /* Module.pdf */; };
+		BE8E15DF16EF814400E91B6B /* ERLPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E15DD16EF814400E91B6B /* ERLPreferencesWindowController.m */; };
+		BE8E15E016EF814400E91B6B /* ERLPreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8E15DE16EF814400E91B6B /* ERLPreferencesWindowController.xib */; };
+		BE930F56164421D600DA7249 /* ERLModuleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE930F55164421D600DA7249 /* ERLModuleParser.m */; };
+		BE930F5A1644671A00DA7249 /* ERLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE930F581644671A00DA7249 /* ERLSearchViewController.m */; };
+		BE930F5B1644671A00DA7249 /* ERLSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE930F591644671A00DA7249 /* ERLSearchViewController.xib */; };
+		BEC0861916EAA42B0048AA57 /* erldoc.erl in Resources */ = {isa = PBXBuildFile; fileRef = BEC0861816EAA42B0048AA57 /* erldoc.erl */; };
+		BEC0861D16EAA4BA0048AA57 /* ERLStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC0861C16EAA4BA0048AA57 /* ERLStore.m */; };
+		BEC0862016EAEB970048AA57 /* ERLMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC0861F16EAEB970048AA57 /* ERLMarkupParser.m */; };
+		BEC8DD1E1631970400CB8A80 /* ERLBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC8DD1C1631970400CB8A80 /* ERLBrowserViewController.m */; };
+		BEC8DD1F1631970400CB8A80 /* ERLBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC8DD1D1631970400CB8A80 /* ERLBrowserViewController.xib */; };
+		BEEBAADA16E71B230008AC35 /* ERLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAAD916E71B230008AC35 /* ERLHelpers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE4752AB16EE72FF00BECF2E /* ERLSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLSearchResult.h; path = Erldoc/ERLSearchResult.h; sourceTree = "<group>"; };
+		BE4752AC16EE72FF00BECF2E /* ERLSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLSearchResult.m; path = Erldoc/ERLSearchResult.m; sourceTree = "<group>"; };
+		BE4752B116EE7A4E00BECF2E /* ERLSearchable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ERLSearchable.h; path = Erldoc/ERLSearchable.h; sourceTree = "<group>"; };
+		BE613F4A16E67F3D00288DD2 /* ERLDescriptionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLDescriptionParser.h; path = Erldoc/ERLDescriptionParser.h; sourceTree = "<group>"; };
+		BE613F4B16E67F3D00288DD2 /* ERLDescriptionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLDescriptionParser.m; path = Erldoc/ERLDescriptionParser.m; sourceTree = "<group>"; };
+		BE613F5316E6B07D00288DD2 /* ERLTypeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLTypeParser.h; path = Erldoc/ERLTypeParser.h; sourceTree = "<group>"; };
+		BE613F5416E6B07D00288DD2 /* ERLTypeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLTypeParser.m; path = Erldoc/ERLTypeParser.m; sourceTree = "<group>"; };
+		BE63CB4C162EF0AE00A67856 /* Erldoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erldoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE63CB50162EF0AE00A67856 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BE63CB53162EF0AE00A67856 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BE63CB54162EF0AE00A67856 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE63CB55162EF0AE00A67856 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE63CB58162EF0AE00A67856 /* Erldoc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Erldoc-Info.plist"; sourceTree = "<group>"; };
+		BE63CB5A162EF0AE00A67856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE63CB5C162EF0AE00A67856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE63CB5E162EF0AE00A67856 /* Erldoc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Erldoc-Prefix.pch"; sourceTree = "<group>"; };
+		BE63CB60162EF0AE00A67856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BE63CB62162EF0AE00A67856 /* ERLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERLAppDelegate.h; sourceTree = "<group>"; };
+		BE63CB63162EF0AE00A67856 /* ERLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERLAppDelegate.m; sourceTree = "<group>"; };
+		BE63CB66162EF0AE00A67856 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE63CB7E162F0BAD00A67856 /* ERLModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLModuleViewController.h; path = Erldoc/ERLModuleViewController.h; sourceTree = "<group>"; };
+		BE63CB7F162F0BAD00A67856 /* ERLModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLModuleViewController.m; path = Erldoc/ERLModuleViewController.m; sourceTree = "<group>"; };
+		BE63CB80162F0BAD00A67856 /* ERLModuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ERLModuleViewController.xib; path = Erldoc/ERLModuleViewController.xib; sourceTree = "<group>"; };
+		BE63CB83162F0E1D00A67856 /* ERLWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLWindowController.h; path = Erldoc/ERLWindowController.h; sourceTree = "<group>"; };
+		BE63CB84162F0E1D00A67856 /* ERLWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLWindowController.m; path = Erldoc/ERLWindowController.m; sourceTree = "<group>"; };
+		BE63CB85162F0E1D00A67856 /* ERLWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ERLWindowController.xib; path = Erldoc/ERLWindowController.xib; sourceTree = "<group>"; };
+		BE63CB88162F25E100A67856 /* ERLModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLModule.h; path = Erldoc/ERLModule.h; sourceTree = "<group>"; };
+		BE63CB89162F25E100A67856 /* ERLModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLModule.m; path = Erldoc/ERLModule.m; sourceTree = "<group>"; };
+		BE6DCCB9163057980084D180 /* ERLDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLDataType.h; path = Erldoc/ERLDataType.h; sourceTree = "<group>"; };
+		BE6DCCBA163057980084D180 /* ERLDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLDataType.m; path = Erldoc/ERLDataType.m; sourceTree = "<group>"; };
+		BE6DCCBC163066570084D180 /* ERLFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLFunction.h; path = Erldoc/ERLFunction.h; sourceTree = "<group>"; };
+		BE6DCCBD163066570084D180 /* ERLFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLFunction.m; path = Erldoc/ERLFunction.m; sourceTree = "<group>"; };
+		BE8E15D416EF737900E91B6B /* Type.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Type.pdf; sourceTree = "<group>"; };
+		BE8E15D516EF737900E91B6B /* Callback.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Callback.pdf; sourceTree = "<group>"; };
+		BE8E15D616EF737900E91B6B /* Function.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Function.pdf; sourceTree = "<group>"; };
+		BE8E15D716EF737900E91B6B /* Module.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Module.pdf; sourceTree = "<group>"; };
+		BE8E15DC16EF814400E91B6B /* ERLPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLPreferencesWindowController.h; path = Erldoc/ERLPreferencesWindowController.h; sourceTree = "<group>"; };
+		BE8E15DD16EF814400E91B6B /* ERLPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLPreferencesWindowController.m; path = Erldoc/ERLPreferencesWindowController.m; sourceTree = "<group>"; };
+		BE8E15DE16EF814400E91B6B /* ERLPreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ERLPreferencesWindowController.xib; path = Erldoc/ERLPreferencesWindowController.xib; sourceTree = "<group>"; };
+		BE930F54164421D600DA7249 /* ERLModuleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLModuleParser.h; path = Erldoc/ERLModuleParser.h; sourceTree = "<group>"; };
+		BE930F55164421D600DA7249 /* ERLModuleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLModuleParser.m; path = Erldoc/ERLModuleParser.m; sourceTree = "<group>"; };
+		BE930F571644671A00DA7249 /* ERLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLSearchViewController.h; path = Erldoc/ERLSearchViewController.h; sourceTree = "<group>"; };
+		BE930F581644671A00DA7249 /* ERLSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLSearchViewController.m; path = Erldoc/ERLSearchViewController.m; sourceTree = "<group>"; };
+		BE930F591644671A00DA7249 /* ERLSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ERLSearchViewController.xib; path = Erldoc/ERLSearchViewController.xib; sourceTree = "<group>"; };
+		BEC0861816EAA42B0048AA57 /* erldoc.erl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = erldoc.erl; sourceTree = "<group>"; };
+		BEC0861B16EAA4BA0048AA57 /* ERLStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLStore.h; path = Erldoc/ERLStore.h; sourceTree = "<group>"; };
+		BEC0861C16EAA4BA0048AA57 /* ERLStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLStore.m; path = Erldoc/ERLStore.m; sourceTree = "<group>"; };
+		BEC0861E16EAEB970048AA57 /* ERLMarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLMarkupParser.h; path = Erldoc/ERLMarkupParser.h; sourceTree = "<group>"; };
+		BEC0861F16EAEB970048AA57 /* ERLMarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLMarkupParser.m; path = Erldoc/ERLMarkupParser.m; sourceTree = "<group>"; };
+		BEC8DD1B1631970400CB8A80 /* ERLBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLBrowserViewController.h; path = Erldoc/ERLBrowserViewController.h; sourceTree = "<group>"; };
+		BEC8DD1C1631970400CB8A80 /* ERLBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLBrowserViewController.m; path = Erldoc/ERLBrowserViewController.m; sourceTree = "<group>"; };
+		BEC8DD1D1631970400CB8A80 /* ERLBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ERLBrowserViewController.xib; path = Erldoc/ERLBrowserViewController.xib; sourceTree = "<group>"; };
+		BEEBAAD816E71B230008AC35 /* ERLHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERLHelpers.h; path = Erldoc/ERLHelpers.h; sourceTree = "<group>"; };
+		BEEBAAD916E71B230008AC35 /* ERLHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERLHelpers.m; path = Erldoc/ERLHelpers.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE63CB49162EF0AE00A67856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE63CB51162EF0AE00A67856 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE63CB41162EF0AE00A67856 = {
+			isa = PBXGroup;
+			children = (
+				BEC0861A16EAA4AA0048AA57 /* Store */,
+				BE63CB8B162F25E600A67856 /* Model */,
+				BE63CB7D162F0B9200A67856 /* Controller */,
+				BE63CB77162F0A5600A67856 /* View */,
+				BE63CB73162EFB7500A67856 /* SourceParsing */,
+				BE63CB56162EF0AE00A67856 /* Erldoc */,
+				BE63CB4F162EF0AE00A67856 /* Frameworks */,
+				BE63CB4D162EF0AE00A67856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE63CB4D162EF0AE00A67856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CB4C162EF0AE00A67856 /* Erldoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE63CB4F162EF0AE00A67856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CB50162EF0AE00A67856 /* Cocoa.framework */,
+				BE63CB52162EF0AE00A67856 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE63CB52162EF0AE00A67856 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CB53162EF0AE00A67856 /* AppKit.framework */,
+				BE63CB54162EF0AE00A67856 /* CoreData.framework */,
+				BE63CB55162EF0AE00A67856 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BE63CB56162EF0AE00A67856 /* Erldoc */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E15D416EF737900E91B6B /* Type.pdf */,
+				BE8E15D516EF737900E91B6B /* Callback.pdf */,
+				BE8E15D616EF737900E91B6B /* Function.pdf */,
+				BE8E15D716EF737900E91B6B /* Module.pdf */,
+				BEC0861816EAA42B0048AA57 /* erldoc.erl */,
+				BE63CB62162EF0AE00A67856 /* ERLAppDelegate.h */,
+				BE63CB63162EF0AE00A67856 /* ERLAppDelegate.m */,
+				BE63CB65162EF0AE00A67856 /* MainMenu.xib */,
+				BE63CB57162EF0AE00A67856 /* Supporting Files */,
+			);
+			path = Erldoc;
+			sourceTree = "<group>";
+		};
+		BE63CB57162EF0AE00A67856 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CB58162EF0AE00A67856 /* Erldoc-Info.plist */,
+				BE63CB59162EF0AE00A67856 /* InfoPlist.strings */,
+				BE63CB5C162EF0AE00A67856 /* main.m */,
+				BE63CB5E162EF0AE00A67856 /* Erldoc-Prefix.pch */,
+				BE63CB5F162EF0AE00A67856 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE63CB73162EFB7500A67856 /* SourceParsing */ = {
+			isa = PBXGroup;
+			children = (
+				BE613F4A16E67F3D00288DD2 /* ERLDescriptionParser.h */,
+				BE613F4B16E67F3D00288DD2 /* ERLDescriptionParser.m */,
+				BE930F54164421D600DA7249 /* ERLModuleParser.h */,
+				BE930F55164421D600DA7249 /* ERLModuleParser.m */,
+				BE613F5316E6B07D00288DD2 /* ERLTypeParser.h */,
+				BE613F5416E6B07D00288DD2 /* ERLTypeParser.m */,
+				BEEBAAD816E71B230008AC35 /* ERLHelpers.h */,
+				BEEBAAD916E71B230008AC35 /* ERLHelpers.m */,
+				BEC0861E16EAEB970048AA57 /* ERLMarkupParser.h */,
+				BEC0861F16EAEB970048AA57 /* ERLMarkupParser.m */,
+			);
+			name = SourceParsing;
+			sourceTree = "<group>";
+		};
+		BE63CB77162F0A5600A67856 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BE63CB7D162F0B9200A67856 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CB7E162F0BAD00A67856 /* ERLModuleViewController.h */,
+				BE63CB7F162F0BAD00A67856 /* ERLModuleViewController.m */,
+				BE63CB80162F0BAD00A67856 /* ERLModuleViewController.xib */,
+				BE63CB83162F0E1D00A67856 /* ERLWindowController.h */,
+				BE63CB84162F0E1D00A67856 /* ERLWindowController.m */,
+				BE63CB85162F0E1D00A67856 /* ERLWindowController.xib */,
+				BEC8DD1B1631970400CB8A80 /* ERLBrowserViewController.h */,
+				BEC8DD1C1631970400CB8A80 /* ERLBrowserViewController.m */,
+				BEC8DD1D1631970400CB8A80 /* ERLBrowserViewController.xib */,
+				BE930F571644671A00DA7249 /* ERLSearchViewController.h */,
+				BE930F581644671A00DA7249 /* ERLSearchViewController.m */,
+				BE930F591644671A00DA7249 /* ERLSearchViewController.xib */,
+				BE8E15DC16EF814400E91B6B /* ERLPreferencesWindowController.h */,
+				BE8E15DD16EF814400E91B6B /* ERLPreferencesWindowController.m */,
+				BE8E15DE16EF814400E91B6B /* ERLPreferencesWindowController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BE63CB8B162F25E600A67856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CB88162F25E100A67856 /* ERLModule.h */,
+				BE63CB89162F25E100A67856 /* ERLModule.m */,
+				BE6DCCB9163057980084D180 /* ERLDataType.h */,
+				BE6DCCBA163057980084D180 /* ERLDataType.m */,
+				BE6DCCBC163066570084D180 /* ERLFunction.h */,
+				BE6DCCBD163066570084D180 /* ERLFunction.m */,
+				BE4752AB16EE72FF00BECF2E /* ERLSearchResult.h */,
+				BE4752AC16EE72FF00BECF2E /* ERLSearchResult.m */,
+				BE4752B116EE7A4E00BECF2E /* ERLSearchable.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BEC0861A16EAA4AA0048AA57 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				BEC0861B16EAA4BA0048AA57 /* ERLStore.h */,
+				BEC0861C16EAA4BA0048AA57 /* ERLStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE63CB4B162EF0AE00A67856 /* Erldoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE63CB6A162EF0AE00A67856 /* Build configuration list for PBXNativeTarget "Erldoc" */;
+			buildPhases = (
+				BE63CB48162EF0AE00A67856 /* Sources */,
+				BE63CB49162EF0AE00A67856 /* Frameworks */,
+				BE63CB4A162EF0AE00A67856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erldoc;
+			productName = Erldoc;
+			productReference = BE63CB4C162EF0AE00A67856 /* Erldoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE63CB43162EF0AE00A67856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ERL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = BE63CB46162EF0AE00A67856 /* Build configuration list for PBXProject "Erldoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE63CB41162EF0AE00A67856;
+			productRefGroup = BE63CB4D162EF0AE00A67856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE63CB4B162EF0AE00A67856 /* Erldoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE63CB4A162EF0AE00A67856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE63CB5B162EF0AE00A67856 /* InfoPlist.strings in Resources */,
+				BE63CB61162EF0AE00A67856 /* Credits.rtf in Resources */,
+				BE63CB67162EF0AE00A67856 /* MainMenu.xib in Resources */,
+				BE63CB82162F0BAD00A67856 /* ERLModuleViewController.xib in Resources */,
+				BE63CB87162F0E1D00A67856 /* ERLWindowController.xib in Resources */,
+				BEC8DD1F1631970400CB8A80 /* ERLBrowserViewController.xib in Resources */,
+				BE930F5B1644671A00DA7249 /* ERLSearchViewController.xib in Resources */,
+				BEC0861916EAA42B0048AA57 /* erldoc.erl in Resources */,
+				BE8E15D816EF737900E91B6B /* Type.pdf in Resources */,
+				BE8E15D916EF737900E91B6B /* Callback.pdf in Resources */,
+				BE8E15DA16EF737900E91B6B /* Function.pdf in Resources */,
+				BE8E15DB16EF737900E91B6B /* Module.pdf in Resources */,
+				BE8E15E016EF814400E91B6B /* ERLPreferencesWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE63CB48162EF0AE00A67856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE63CB5D162EF0AE00A67856 /* main.m in Sources */,
+				BE63CB64162EF0AE00A67856 /* ERLAppDelegate.m in Sources */,
+				BE63CB81162F0BAD00A67856 /* ERLModuleViewController.m in Sources */,
+				BE63CB86162F0E1D00A67856 /* ERLWindowController.m in Sources */,
+				BE63CB8A162F25E100A67856 /* ERLModule.m in Sources */,
+				BE6DCCBB163057980084D180 /* ERLDataType.m in Sources */,
+				BE6DCCBE163066570084D180 /* ERLFunction.m in Sources */,
+				BEC8DD1E1631970400CB8A80 /* ERLBrowserViewController.m in Sources */,
+				BE930F56164421D600DA7249 /* ERLModuleParser.m in Sources */,
+				BE930F5A1644671A00DA7249 /* ERLSearchViewController.m in Sources */,
+				BE613F4C16E67F3D00288DD2 /* ERLDescriptionParser.m in Sources */,
+				BE613F5516E6B07D00288DD2 /* ERLTypeParser.m in Sources */,
+				BEEBAADA16E71B230008AC35 /* ERLHelpers.m in Sources */,
+				BEC0861D16EAA4BA0048AA57 /* ERLStore.m in Sources */,
+				BEC0862016EAEB970048AA57 /* ERLMarkupParser.m in Sources */,
+				BE4752AD16EE72FF00BECF2E /* ERLSearchResult.m in Sources */,
+				BE8E15DF16EF814400E91B6B /* ERLPreferencesWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE63CB59162EF0AE00A67856 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE63CB5A162EF0AE00A67856 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE63CB5F162EF0AE00A67856 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE63CB60162EF0AE00A67856 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BE63CB65162EF0AE00A67856 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE63CB66162EF0AE00A67856 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE63CB68162EF0AE00A67856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE63CB69162EF0AE00A67856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE63CB6B162EF0AE00A67856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Erldoc/Erldoc-Prefix.pch";
+				INFOPLIST_FILE = "Erldoc/Erldoc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE63CB6C162EF0AE00A67856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Erldoc/Erldoc-Prefix.pch";
+				INFOPLIST_FILE = "Erldoc/Erldoc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE63CB46162EF0AE00A67856 /* Build configuration list for PBXProject "Erldoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE63CB68162EF0AE00A67856 /* Debug */,
+				BE63CB69162EF0AE00A67856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE63CB6A162EF0AE00A67856 /* Build configuration list for PBXNativeTarget "Erldoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE63CB6B162EF0AE00A67856 /* Debug */,
+				BE63CB6C162EF0AE00A67856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE63CB43162EF0AE00A67856 /* Project object */;
+}

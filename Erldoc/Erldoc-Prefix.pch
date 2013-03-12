@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Erldoc' target in the 'Erldoc' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
